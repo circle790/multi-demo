@@ -5,8 +5,12 @@
   </div>
 </template>
 <script>
+    import test from '../assets/js/test'
     export default {
-        name: 'about'
+        name: 'about',
+        mounted() {
+            test()
+        }
     }
 </script>
 <style>
