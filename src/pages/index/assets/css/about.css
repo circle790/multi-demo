@@ -1,0 +1,7 @@
+.img{
+  width: 100px;
+  height: 100px;
+  background: url("../img/zdy.jpeg") no-repeat center;
+  background-size: cover;
+  margin: 0 auto;
+}

@@ -1,4 +1,4 @@
-# multi
+# simple-multi-demo
 
 > A Vue.js project
 

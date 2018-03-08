@@ -1,15 +1,22 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import HelloWorld from '@/components/HelloWorld'
 
+
+const About = () => import('../views/About.vue')
+const Other = () => import('../views/Other.vue')
 Vue.use(Router)
 
 export default new Router({
   routes: [
     {
-      path: '/index',
-      name: 'HelloWorld',
-      component: HelloWorld
+      path: '/about',
+      name: 'About',
+      component: About
+    },
+    {
+      path: '/other',
+      name: 'Other',
+      component: Other
     }
   ]
 })
